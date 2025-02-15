@@ -7,7 +7,9 @@ services:
       dockerfile: Dockerfile
     container_name: php_app
     volumes:
+      - .logs:/var/log/apache2  # Mount logs
       - ./:/var/www/html  # Set public as document root
+      - ./php.ini:/usr/local/etc/php/php.ini
     ports:
       - "8080:80"
     depends_on:
@@ -20,13 +22,15 @@ services:
     restart: always
     environment:
       MYSQL_ROOT_PASSWORD: root
-      MYSQL_DATABASE: mydatabase
+      MYSQL_DATABASE: fitforfun
       MYSQL_USER: user
       MYSQL_PASSWORD: password
     volumes:
       - db_data:/var/lib/mysql
+      - ./mysql_logs:/var/log/mysql  # Mount logs
     ports:
       - "3306:3306"
+
 
   phpmyadmin:
     image: phpmyadmin/phpmyadmin
