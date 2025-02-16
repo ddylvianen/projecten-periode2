@@ -1,0 +1,51 @@
+.logo{
+    font-family: 'bangers', cursive;
+    font-size: 3.5rem;
+    color: var(--accent-color);
+}
+
+nav{
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+    gap: 2rem;
+    background-color: var(--background-color);
+}
+
+nav a{
+    text-decoration: none;
+    color: var(--text-color);
+    font-size: 1.5rem;
+}
+
+
+nav div{
+    font-family: 'inter', sans-serif;
+    display: flex;
+    align-items: center;
+    /* gap: .0rem; */
+}
+
+nav .nav-links a, nav .nav-account a{
+    padding: 5px  20px;
+    text-align: end;
+}
+
+
+footer{
+    background-color: var(--background-color);
+    color: var(--text-color);
+    padding: 0 1rem;
+    font-family: 'inter', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer p{
+    text-align: center;
+    font-size: 1.5rem;
+}
