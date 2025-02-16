@@ -34,7 +34,7 @@
                 <h2>Onze sporten</h2>
                 <div class="wraper">
                     <div>
-                        <img src="../public/img/cardio.png" alt="">
+                        <img src="../public/img/cardiospinning.png" alt="">
                         <h3>Cardio</h3>
                         <p>
                             Cardio is een van de meest effectieve manieren om af te vallen en je conditie te verbeteren.
@@ -77,42 +77,58 @@
             </section>
             <section class="price">
                 <h2>Onze tarieven</h2>
-                <p>
+                <!-- <p>
                     Bij FitForFun kun je kiezen uit verschillende abonnementen, zodat je altijd een abonnement hebt dat
                     bij
                     je past.
                     Of je nu een beginner bent of een ervaren sporter, bij FitForFun ben je aan het juiste adres.
-                </p>
+                </p> -->
                 <div class="wraper">
                     <div>
                         <h3>Standaard abonnement</h3>
-                        <p>
-                            Met het standaard abonnement kun je onbeperkt gebruik maken van alle faciliteiten van
-                            FitForFun.
-                            Dit abonnement is ideaal voor mensen die regelmatig willen sporten en hun conditie willen
-                            verbeteren.
-                        </p>
-                        <a href="">Meer informatie</a>
+                        <img src="../public/img/standaard.png" alt="Standaard abonnement">
+                        <ul>
+                            <li>Onbeperkt sporten</li>
+                            <li>Gratis gebruik van alle faciliteiten</li>
+                            <li>Gratis deelname aan groepslessen</li>
+                            <li>Gratis persoonlijk trainingsschema</li>
+                        </ul>
+                        <div class="abonement-price">
+                            <p>€ 10,-</p>
+                            <p>per maand</p>
+                        </div>
+                        <button class="btn">inschrijven</button>
                     </div>
                     <div>
                         <h3>Studenten abonnement</h3>
-                        <p>
-                            Met het studenten abonnement kun je onbeperkt gebruik maken van alle faciliteiten van
-                            FitForFun.
-                            Dit abonnement is ideaal voor studenten die regelmatig willen sporten en hun conditie willen
-                            verbeteren.
-                        </p>
-                        <a href="">Meer informatie</a>
+                        <img src="../public/img/studenten.png" alt="Studenten abonnement">
+                        <ul>
+                            <li>Onbeperkt sporten</li>
+                            <li>Gratis gebruik van alle faciliteiten</li>
+                            <li>Gratis deelname aan groepslessen</li>
+                            <li>Gratis persoonlijk trainingsschema</li>
+                        </ul>
+                        <div class="abonement-price">
+                            <p>€ 20,-</p>
+                            <p>per maand</p>
+                        </div>
+                        <button class="btn">inschrijven</button>
                     </div>
                     <div>
                         <h3>Gezins abonnement</h3>
-                        <p>
-                            Met het gezins abonnement kun je onbeperkt gebruik maken van alle faciliteiten van
-                            FitForFun.
-                            Dit abonnement is ideaal voor gezinnen die regelmatig willen sporten en hun conditie willen
-                            verbeteren.
-                        </p>
-                        <a href="">Meer informatie</a>
+                        <img src="../public/img/gezin.png" alt="Gezins abonnement">
+                        <ul>
+                            <li>Onbeperkt sporten</li>
+                            <li>Gratis gebruik van alle faciliteiten</li>
+                            <li>Gratis deelname aan groepslessen</li>
+                            <li>Gratis persoonlijk trainingsschema</li>
+                        </ul>
+
+                        <div class="abonement-price">
+                            <p>€ 50,-</p>
+                            <p>per maand</p>
+                        </div>
+                        <button class="btn">inschrijven</button>
                     </div>
                 </div>
             </section>

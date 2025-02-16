@@ -1,52 +1,39 @@
 <?php
 
+use function PHPSTORM_META\type;
+
 Class reserveringModel{
     private $db;
     public function __construct(){
         $this->db = new Database;
     }
 
-    public function getReserveringen(){
+    public function getReserveringen($week){
 
         // has to be ordered by date and group by date by also by week
 
-        $sql = 'SELECT LesId, Nummer, Datum,Tijd, Reserveringstatus,opmerking FROM Reservering GROUP BY datum, tijd, nummer, LesId, Reserveringstatus, opmerking HAVING LesId = 1;';
+        $sql = 'SELECT Reservering.LesId, Reservering.Nummer, Reservering.Datum, Reservering.Tijd, Reservering.opmerking, WEEK(Reservering.Datum, 3) AS weeknummer, DATE_FORMAT(Reservering.Datum, "%W") AS dag, Les.Naam AS lesnaam
+        FROM Reservering
+        Left JOIN Les ON Reservering.LesId = Les.Id
+        WHERE WEEK(Reservering.Datum, 3) = :week
+        ORDER BY Reservering.Datum, Reservering.Tijd';
 
         $this->db->query($sql);
-
-        $result = $this->db->resultSet();
+        $result = $this->db->resultSet($week);
+        // return $result;
         $data = $this->group_data($result);
         return $data;
     }
 
-    private function getWeek($date)
-    {
-        $date = new DateTime($date);
-        return $date->format('W');
-    }
-
-    private function group_data($data)
-    {
-        // Group data by week and day
-        // so we can display it in a table
-
-        $week = $this->getWeek($data[0]->Datum);
-        $lesdatum = $data[0]->Datum;
-        $newData = [[]];
-
-        foreach ($data as $row) {
-            $date = new DateTime($row->Datum);
-            $dayOfWeek = $date->format('l'); // Get the day of the week
-
-            if (!($row->Datum == $lesdatum && $week == $date->format('W'))) {
-                $lesdatum = $row->Datum;
-                $week = date('W', strtotime($lesdatum));
-            }
-
-            $newData[$week][$dayOfWeek][] = $row;
+    public function group_data($data){
+        $grouped = [];
+        foreach($data as $item){
+            $dag = $item->dag;
+            unset($item->dag);
+            $grouped[$dag][] = $item;
         }
 
-        return $newData;
+        return $grouped;
     }
 
     public function getReserveringById($id){

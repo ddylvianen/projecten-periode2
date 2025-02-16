@@ -13,7 +13,7 @@ header{
 }
 
 header div{
-    background-color: var(--background-color-light);
+    background-color: var(--card-back);
     padding: 1em;
     margin-bottom: 5rem;
     border-radius: 10px;
@@ -53,10 +53,11 @@ header div h1{
 .sporten > .wraper{
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 2rem 2.5rem;
 }
 
 .sporten > .wraper > div{
-    background-color: var(--background-color-light);
+    background-color: var(--card-border);
     padding: 1em;
     border-radius: 10px;
     /* width: 30%; */
@@ -77,6 +78,7 @@ header div h1{
     /* width: 300px; */
     /* height: 250px; */
     width: 100%;
+    height: 200px;
     border-radius: 10px;
 }
 
@@ -86,3 +88,31 @@ header div h1{
     grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
     gap: 2rem 2.5rem;
 }
+
+.price > .wraper > div{
+    background-color: var(--card-border);
+    padding: 1em;
+    border-radius: 10px;
+    /* width: 30%; */
+}
+
+.price > .wraper > div h3{
+    font-size: 4rem;
+    margin-bottom: 1rem;
+}
+
+.price > .wraper > div p{
+    font-family: 'inter';
+    font-size: 1.6rem;
+    line-height: 1.6;
+}
+
+.price > .wraper > div img{
+    /* width: 300px; */
+    /* height: 250px; */
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+}
+
+

@@ -5,7 +5,7 @@
   <div class="nav-links">
     <a href="/">home</a>
     <a href="/lessen">lessen</a>
-    <a href="/reserveringen">reserveringen</a>
+    <a href="/reservering">reserveringen</a>
     <a href="#">Test</a>
   </div>
   <span></span>
