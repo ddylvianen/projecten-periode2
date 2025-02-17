@@ -10,7 +10,7 @@
 
             <h3><?php echo $data['title']; ?></h3>
 
-            <a href="<?= URLROOT; ?>/smartphones/index ">Toon smartphones TEST</a>
+            <a href="<?= URLROOT; ?>/ledenoverzicht/index ">Naar leden</a>
 
         </div>
         

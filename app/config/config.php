@@ -11,7 +11,7 @@ define('DB_PASS', '');
 /**
  * De naam van de virtualhost
  */
-define('URLROOT', 'http://www.mvc-startertemplate-2409b.nl');
+define('URLROOT', '');
 
 /**
  * Het pad naar de folder app
