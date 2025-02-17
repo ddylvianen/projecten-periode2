@@ -1,6 +1,6 @@
 <?php
 
-class LedenOverzicht extends BaseController
+class Leden extends BaseController
 {
     private $lidModel;
 
@@ -21,3 +21,5 @@ class LedenOverzicht extends BaseController
         $this->view('ledenoverzicht/index', $data);
     }
 }
+
+?>

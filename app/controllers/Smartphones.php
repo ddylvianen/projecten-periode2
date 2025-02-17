@@ -24,3 +24,5 @@ class Smartphones extends BaseController
         $this->view('smartphones/index', $data);
     }
 }
+
+?>
