@@ -57,4 +57,17 @@ class BaseController
         }
     }
 
+    public function getweek($weekNumber){
+
+        $begindatestr = date('Y') . 'W' . str_pad($weekNumber, 2, '0', STR_PAD_LEFT);
+        $enddatestr = date('Y') . 'W' . str_pad($weekNumber, 2, '0', STR_PAD_LEFT) . '7';
+
+        $month = date('F', strtotime($enddatestr));
+
+        $week_start = date('d', strtotime($begindatestr));
+        $week_end = date('d', strtotime($enddatestr));
+
+        return "{$week_start} - {$week_end} {$month}";
+    }
+
 }

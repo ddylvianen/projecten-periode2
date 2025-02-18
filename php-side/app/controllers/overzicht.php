@@ -1,28 +1,27 @@
 <?php
 
-class overzicht extends BaseController
-{
-    // private $lessenmodel;
+class overzicht extends BaseController{
 
-    // public function __construct()
-    // {
-    //     $this->lessenmodel = $this->model('LessenModel');
-    // }
+    private $model;
+    private $week;
+    private $data;
 
-    public function __construct(){}
-
+    public function __construct()
+    {
+        $this->model = $this->model('lesoverzichtModel');
+        $this->week = date('W');
+    }
     public function index()
     {
-        /**
-         * Het $data-array geeft informatie mee aan de view-pagina
-         */
+        $weekNumber = (isset($_GET['week'])) ? $_GET['week'] : date('W');
 
-        /**
-         * Met de view-method uit de BaseController-class wordt de view
-         * aangeroepen met de informatie uit het $data-array
-         */
-        $this->view('overzicht/index');
+        $this->data = [
+            'lessen' => $this->model->getLessen(['week' => $weekNumber]),
+            'week' => $this->getweek($weekNumber),
+            'weekNumber' => $weekNumber,
+            'error' => ($this->week > $weekNumber) ? 'Deze lessen zijn al geweest!' : ''
+        ];
+        $this->view('overzicht/index', $this->data);
     }
 
-    
 }

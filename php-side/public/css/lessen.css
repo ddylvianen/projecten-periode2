@@ -7,43 +7,6 @@
     text-align: center;
 } */
 
-.week > .week-nav{
-    max-width: 300px;
-    margin: auto;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    gap: 1rem;
-}
-.week > .current-week{
-    width: 100px;
-    color: var(--accent-color);
-    text-decoration: none;
-    cursor: pointer;
-    float: right;
-    text-align: center;
-}
-
-.week > i{
-    font-size: 2rem;
-    cursor: pointer;
-    /* text-align: center; */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: var(--accent-color);
-}
-
-.week > i:hover{
-    color: var(--accent-color-hover);
-}
-
-.week > h1{
-    font-size: 3rem;
-    font-weight: 700;
-    /* margin-bottom: 1rem; */
-}
 
 .dag{
     margin: 10rem auto;

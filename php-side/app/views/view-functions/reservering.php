@@ -2,25 +2,7 @@
 class reserveringfunctions 
 {
     private $sporten = ['zwemmen', 'fitness', 'groepslessen', 'squash', 'tennis', 'padel', 'kinderen', 'cardiospinning', 'kracht' ]; 
-    public function makeweek($week, $weekNumber){
-        $weken = [
-            'old' => $weekNumber - 1,
-            'new' => $weekNumber + 1
-        ];
-        $current = date('W');
-        echo
-        "<div class='week'>
-            <!-- de weken komen hierin -->
-            <!-- scrolable maken... bij liks/rechts info opnieuw vragen? of api?-->
-
-            <div class='week-nav'>
-                <a href='/reservering?week={$weken["old"]}'><i class='fa-solid fa-arrow-left'></i></a>
-                <h1>{$week}</h1>
-                <a href='/reservering?week={$weken["new"]}'><i class='fa-solid fa-arrow-right'></i></a>
-            </div>
-            <a class='current-week' href='/reservering?week={$current}'>deze week</a>
-        </div>";
-    }
+    
     public function makelesson($data){
 
 
@@ -36,6 +18,26 @@ class reserveringfunctions
             </div>
             <!-- met js laten saven -->
             <a class='btn'>Uitschrijven</a>
+        </div>";
+    }
+
+    public function makeweek($week, $weekNumber, $redirect){
+        $weken = [
+            'old' => $weekNumber - 1,
+            'new' => $weekNumber + 1
+        ];
+        $current = date('W');
+        echo
+        "<div class='week'>
+            <!-- de weken komen hierin -->
+            <!-- scrolable maken... bij liks/rechts info opnieuw vragen? of api?-->
+
+            <div class='week-nav'>
+                <a href='/reservering?week={$weken["old"]}'><i class='fa-solid fa-arrow-left'></i></a>
+                <h1>{$week}</h1>
+                <a href='/reservering?week={$weken["new"]}'><i class='fa-solid fa-arrow-right'></i></a>
+            </div>
+            <a class='current-week' href='/{$redirect}?week={$current}'>deze week</a>
         </div>";
     }
 
@@ -60,4 +62,7 @@ class reserveringfunctions
         $waarde = in_array($naam, $this->sporten) ? $naam : $this->sporten[array_rand($this->sporten)];
         return ('../public/img/' . $waarde . '.png');
     }
+
+
+    
 };

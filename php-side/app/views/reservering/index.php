@@ -1,5 +1,5 @@
 <?php require_once APPROOT . '/views/includes/header.php'; ?>
-<?php require_once APPROOT . '/views/reservering/functions.php'; ?>
+<?php require_once APPROOT . '/views/view-functions/reservering.php'; ?>
 <?php
     $template = new reserveringfunctions();
 ?>
@@ -13,7 +13,7 @@
     <div class="cont">
         <?php require_once APPROOT . '/views/includes/navbar.php'; ?>
         <main>
-            <?php $template->makeweek($data['week'], $data['weekNumber'])?>
+            <?php $template->makeweek($data['week'], $data['weekNumber'], 'reservering')?>
             <section>
                 <?php    
                     foreach($data['lessen'] as $day){

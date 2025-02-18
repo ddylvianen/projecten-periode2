@@ -1,6 +1,5 @@
 <?php
 
-use function PHPSTORM_META\type;
 
 Class reserveringModel{
     private $db;

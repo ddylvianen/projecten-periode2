@@ -1,5 +1,111 @@
-SELECT Reservering.LesId, Reservering.Nummer, Reservering.Datum, Reservering.Tijd, Reservering.opmerking, WEEK(Reservering.Datum, 3) AS weeknummer, DATE_FORMAT(Reservering.Datum, "%W") AS dag, Les.Naam AS lesnaam
-            FROM Reservering
-            Left JOIN Les ON Reservering.LesId = Les.Id
-            WHERE WEEK(Reservering.Datum, 3) = 7 
-            ORDER BY Reservering.Datum, Reservering.Tijd
+INSERT INTO 
+    Les(
+        Naam,
+        Datum,
+        Tijd,
+        MinAantalPersonen,
+        MaxAantalPersonen,
+        Beschikbaarheid,
+        Isactief,
+        Opmerking,
+        DatumAangemaakt,
+        DatumGewijzigd,
+    )
+
+VALUES
+    (
+        'Les 1',
+        '2020-01-01',
+        '10:00:00',
+        1,
+        10,
+        1,
+        1,
+        'Opmerking 1',
+        '2020-01-01',
+        '2020-01-01',
+    )
+    (
+        'Les 2',
+        '2020-01-02',
+        '11:00:00',
+        1,
+        10,
+        1,
+        1,
+        'Opmerking 2',
+        '2020-01-01',
+        '2020-01-01',
+    )
+    (
+        'Les 3',
+        '2020-01-03',
+        '12:00:00',
+        1,
+        10,
+        1,
+        1,
+        'Opmerking 3',
+        '2020-01-01',
+        '2020-01-01',
+    )
+    (
+        'Les 4',
+        '2020-01-04',
+        '13:00:00',
+        1,
+        10,
+        1,
+        1,
+        'Opmerking 4',
+        '2020-01-01',
+        '2020-01-01',
+    )
+    (
+        'Les 5',
+        '2020-01-05',
+        '14:00:00',
+        1,
+        10,
+        1,
+        1,
+        'Opmerking 5',
+        '2020-01-01',
+        '2020-01-01',
+    )
+    (
+        'Les 6',
+        '2020-01-06',
+        '15:00:00',
+        1,
+        10,
+        1,
+        1,
+        'Opmerking 6',
+        '2020-01-01',
+        '2020-01-01',
+    )
+    (
+        'Les 7',
+        '2020-01-07',
+        '16:00:00',
+        1,
+        10,
+        1,
+        1,
+        'Opmerking 7',
+        '2020-01-01',
+        '2020-01-01',
+    )
+    (
+        'Les 8',
+        '2020-01-08',
+        '17:00:00',
+        1,
+        10,
+        1,
+        1,
+        'Opmerking 8',
+        '2020-01-01',
+        '2020-01-01',
+    );

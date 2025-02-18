@@ -13,63 +13,11 @@
         <?php require_once APPROOT . '/views/includes/navbar.php'; ?>
         <main>
             <!-- 1 table = one week -->
-            <table class="table">
-                <!-- <caption>List of users</caption> -->
-                <tbody>
-                    <thead>
-                        <tr>
-                            <th>day</th>
-                        </tr>
-                    </thead>
-                    <tr>
-                        <th scope="row">1</th>
-                        <td>Mark</td>
-                        <td>Otto</td>
-                        <td>@mdo</td>
-                        <td>
-                            <i class="fa-solid fa-pen-to-square"></i>
-                            <i class="fa-solid fa-trash"></i>
-                        </td>
-                    </tr>
-                </tbody>
-                <tbody>
-                    <thead>
-                        <tr>
-                            <th>day</th>
-                        </tr>
-                    </thead>
-                    <tr>
-                        <th scope="row">1</th>
-                        <td>Mark</td>
-                        <td>Otto</td>
-                        <td>@mdo</td>
-                        <td>
-                            <i class="fa-solid fa-pen-to-square"></i>
-                            <i class="fa-solid fa-trash"></i>
-                        </td>
-                    </tr>
-                    <tr>
-                        <th scope="row">1</th>
-                        <td>Mark</td>
-                        <td>Otto</td>
-                        <td>@mdo</td>
-                        <td>
-                            <i class="fa-solid fa-pen-to-square"></i>
-                            <i class="fa-solid fa-trash"></i>
-                        </td>
-                    </tr>
-                    <tr>
-                        <th scope="row">1</th>
-                        <td>Mark</td>
-                        <td>Otto</td>
-                        <td>@mdo</td>
-                        <td>
-                            <i class="fa-solid fa-pen-to-square"></i>
-                            <i class="fa-solid fa-trash"></i>
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
+             <?php require_once APPROOT . '/views/view-functions/lessen.php'; ?>
+             <?php
+                    $template = new Lessen();
+                    $template->page($data);
+                ?>
         </main>
         <?php require_once APPROOT . '/views/includes/footer.php'; ?>
     </div>

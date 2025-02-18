@@ -75,62 +75,8 @@
                     </div>
                 </div>
             </section>
-            <section class="price">
-                <h2>Onze tarieven</h2>
-                <!-- <p>
-                    Bij FitForFun kun je kiezen uit verschillende abonnementen, zodat je altijd een abonnement hebt dat
-                    bij
-                    je past.
-                    Of je nu een beginner bent of een ervaren sporter, bij FitForFun ben je aan het juiste adres.
-                </p> -->
-                <div class="wraper">
-                    <div>
-                        <h3>Standaard abonnement</h3>
-                        <img src="../public/img/standaard.png" alt="Standaard abonnement">
-                        <ul>
-                            <li>Onbeperkt sporten</li>
-                            <li>Gratis gebruik van alle faciliteiten</li>
-                            <li>Gratis deelname aan groepslessen</li>
-                            <li>Gratis persoonlijk trainingsschema</li>
-                        </ul>
-                        <div class="abonement-price">
-                            <p>€ 10,-</p>
-                            <p>per maand</p>
-                        </div>
-                        <button class="btn">inschrijven</button>
-                    </div>
-                    <div>
-                        <h3>Studenten abonnement</h3>
-                        <img src="../public/img/studenten.png" alt="Studenten abonnement">
-                        <ul>
-                            <li>Onbeperkt sporten</li>
-                            <li>Gratis gebruik van alle faciliteiten</li>
-                            <li>Gratis deelname aan groepslessen</li>
-                            <li>Gratis persoonlijk trainingsschema</li>
-                        </ul>
-                        <div class="abonement-price">
-                            <p>€ 20,-</p>
-                            <p>per maand</p>
-                        </div>
-                        <button class="btn">inschrijven</button>
-                    </div>
-                    <div>
-                        <h3>Gezins abonnement</h3>
-                        <img src="../public/img/gezin.png" alt="Gezins abonnement">
-                        <ul>
-                            <li>Onbeperkt sporten</li>
-                            <li>Gratis gebruik van alle faciliteiten</li>
-                            <li>Gratis deelname aan groepslessen</li>
-                            <li>Gratis persoonlijk trainingsschema</li>
-                        </ul>
-
-                        <div class="abonement-price">
-                            <p>€ 50,-</p>
-                            <p>per maand</p>
-                        </div>
-                        <button class="btn">inschrijven</button>
-                    </div>
-                </div>
+            <section>
+                <?php require_once APPROOT . '/views/includes/pricing.php'; ?>
             </section>
         </main>
         <?php require_once APPROOT . '/views/includes/footer.php'; ?>
