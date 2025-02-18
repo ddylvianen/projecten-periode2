@@ -13,11 +13,13 @@
         <?php require_once APPROOT . '/views/includes/navbar.php'; ?>
         <main>
             <!-- 1 table = one week -->
-             <?php require_once APPROOT . '/views/view-functions/lessen.php'; ?>
-             <?php
-                    $template = new Lessen();
-                    $template->page($data);
-                ?>
+             <div class="table-responsive">
+                 <?php require_once APPROOT . '/views/view-functions/lessen.php'; ?>
+                 <?php
+                        $template = new Lessen();
+                        $template->page($data);
+                    ?>
+             </div>
         </main>
         <?php require_once APPROOT . '/views/includes/footer.php'; ?>
     </div>

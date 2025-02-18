@@ -4,10 +4,9 @@
     align-items: center;
 } */
 
-.table{
-    max-width: 80%;
-    margin: 5rem auto;
-    font-size:x-large;
+.table-responsive{
+    width: 90%;
+    margin: 0 auto;
 }
 
 td{
