@@ -372,29 +372,26 @@ VALUES
 
 
 
-INSERT INTO 
-    Les(
-        Naam,
-        Datum,
-        Tijd,
-        MinAantalPersonen,
-        MaxAantalPersonen,
-        Beschikbaarheid,
-        Isactief,
-        Opmerking,
-        DatumAangemaakt,
-        DatumGewijzigd,
-    )
-
-VALUES
+INSERT INTO Les (
+    Naam,
+    Datum,
+    Tijd,
+    MinAantalPersonen,
+    MaxAantalPersonen,
+    Beschikbaarheid,
+    Isactief,
+    Opmerking,
+    DatumAangemaakt,
+    DatumGewijzigd
+) VALUES 
     ('cardiospinning', CURDATE(), '10:00:00', 1, 10, 'beschikbaar', 1, 'Opmerking 1', NOW(), NOW()),
     ('cardiospinning', CURDATE() + INTERVAL 1 DAY, '11:00:00', 1, 10, 'beschikbaar', 1, 'Opmerking 2', NOW(), NOW()),
-    ('cardiospinning', CURDATE() + INTERVAL 2 DAYS, '12:00:00', 1, 10, 'beschikbaar', 1, 'Opmerking 3', NOW(), NOW()),
-    ('cardiospinning', CURDATE() + INTERVAL 3 DAYS, '13:00:00', 1, 10, 'beschikbaar', 1, 'Opmerking 4', NOW(), NOW()),
-    ('cardiospinning', CURDATE() + INTERVAL 4 DAYS, '14:00:00', 1, 10, 'beschikbaar', 1, 'Opmerking 5', NOW(), NOW()),
-    ('cardiospinning', CURDATE() + INTERVAL 5 DAYS, '15:00:00', 1, 10, 'beschikbaar', 1, 'Opmerking 6', NOW(), NOW()),
-    ('cardiospinning', CURDATE() + INTERVAL 6 DAYS, '16:00:00', 1, 10, 'beschikbaar', 1, 'Opmerking 7', NOW(), NOW()),
-    ('cardiospinning', CURDATE() + INTERVAL 7 DAYS, '17:00:00', 1, 10, 'beschikbaar', 1, 'Opmerking 8', NOW(), NOW());
+    ('cardiospinning', CURDATE() + INTERVAL 2 DAY, '12:00:00', 1, 10, 'beschikbaar', 1, 'Opmerking 3', NOW(), NOW()),
+    ('cardiospinning', CURDATE() + INTERVAL 3 DAY, '13:00:00', 1, 10, 'beschikbaar', 1, 'Opmerking 4', NOW(), NOW()),
+    ('cardiospinning', CURDATE() + INTERVAL 4 DAY, '14:00:00', 1, 10, 'beschikbaar', 1, 'Opmerking 5', NOW(), NOW()),
+    ('cardiospinning', CURDATE() + INTERVAL 5 DAY, '15:00:00', 1, 10, 'beschikbaar', 1, 'Opmerking 6', NOW(), NOW()),
+    ('cardiospinning', CURDATE() + INTERVAL 6 DAY, '16:00:00', 1, 10, 'beschikbaar', 1, 'Opmerking 7', NOW(), NOW()),
+    ('cardiospinning', CURDATE() + INTERVAL 7 DAY, '17:00:00', 1, 10, 'beschikbaar', 1, 'Opmerking 8', NOW(), NOW());
 
 
 -- ** tabel Les **
@@ -417,7 +414,8 @@ INSERT INTO Reservering (
 )
 VALUES
 (1, 1, 1, CURDATE(), '10:00:00', 'test1', 1, 'test1', NOW(), NOW()),
-(1, 1, 1, CURDATE() + INTERVAL 1 DAY, '11:00:00', 'test2', 1, 'test2', NOW(), NOW()),
-(1, 1, 1, CURDATE() + INTERVAL 2 DAYS, '12:00:00', 'test3', 1, 'test3', NOW(), NOW()),
-(1, 1, 1, CURDATE() + INTERVAL 3 DAYS, '13:00:00', 'test4', 1, 'test4', NOW(), NOW()),
-(1, 1, 1, CURDATE() + INTERVAL 4 DAYS, '14:00:00', 'test5', 1, 'test5', NOW(), NOW());
+(1, 1, 2, CURDATE() + INTERVAL 1 DAY, '11:00:00', 'test2', 1, 'test2', NOW(), NOW()),
+(1, 1, 3, CURDATE() + INTERVAL 2 DAY, '12:00:00', 'test3', 1, 'test3', NOW(), NOW()),
+(1, 1, 4, CURDATE() + INTERVAL 3 DAY, '13:00:00', 'test4', 1, 'test4', NOW(), NOW()),
+(1, 1, 5, CURDATE() + INTERVAL 4 DAY, '14:00:00', 'test5', 1, 'test5', NOW(), NOW());
+
