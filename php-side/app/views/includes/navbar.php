@@ -6,7 +6,7 @@
     <a href="/">home</a>
     <a href="/lessen">lessen</a>
     <a href="/reservering">reserveringen</a>
-    <a href="#">Test</a>
+    <a href="/overzicht">lessenoverzicht</a>
   </div>
   <span></span>
   <div class="nav-account">

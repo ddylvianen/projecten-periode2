@@ -24,6 +24,10 @@ class Reservering_maken extends BaseController
 
     public function index()
     {
+        // if (!($this->loggedinAS('lid'))) {
+        //     $this->redirect('/');
+        // }
+        
         $this->database->query('INSERT INTO reserveringen (voornaam, tussenvoegsel, achternaam, email, telefoonnummer, datum, tijd, aantal_personen) VALUES (:voornaam, :tussenvoegsel, :achternaam, :email, :telefoonnummer, :datum, :tijd, :aantal_personen)');
         $this->database->execute($this->data);
         http_response_code(200);

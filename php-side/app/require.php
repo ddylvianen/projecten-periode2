@@ -11,4 +11,5 @@
     /**
      * Maak een instantie of object van de Core-Class
      */
+    
     $init = new Core();

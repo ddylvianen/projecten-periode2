@@ -13,6 +13,10 @@ class overzicht extends BaseController{
     }
     public function index()
     {
+        // if (!($this->loggedinAS('lid'))) {
+        //     $this->redirect('/');
+        // }
+
         $weekNumber = (isset($_GET['week'])) ? $_GET['week'] : date('W');
 
         $this->data = [

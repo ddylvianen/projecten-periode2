@@ -17,3 +17,6 @@ define('URLROOT', 'localhost');
  * Het pad naar de folder app
  */
 define('APPROOT', dirname(dirname(__FILE__)));
+
+
+session_start();
