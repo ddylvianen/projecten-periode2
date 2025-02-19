@@ -11,11 +11,6 @@ services:
       - ./php.ini:/usr/local/etc/php/php.ini
     ports:
       - "80:80"
-      - .logs:/var/log/apache2  # Mount logs
-      - ./:/var/www/html  # Set public as document root
-      - ./php.ini:/usr/local/etc/php/php.ini
-    ports:
-      - "8080:80"
     depends_on:
       - db
       - mailhog
