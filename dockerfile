@@ -1,11 +1,17 @@
 FROM php:8.2-apache
 
 # Enable mod_rewrite for .htaccess support
-RUN a2enmod mpm_prefork rewrite
+# <<<<<<< HEAD
+# RUN a2enmod mpm_prefork rewrite
+
+# # Set AllowOverride to All in Apache config
+# RUN sed -i 's/AllowOverride None/AllowOverride All/g' /etc/apache2/apache2.conf
+# RUN echo "ServerName localhost" >> /etc/apache2/apache2.conf
+# =======
+RUN a2enmod rewrite
 
 # Set AllowOverride to All in Apache config
 RUN sed -i 's/AllowOverride None/AllowOverride All/g' /etc/apache2/apache2.conf
-RUN echo "ServerName localhost" >> /etc/apache2/apache2.conf
 
 # Install PHP extensions for MySQL
 RUN docker-php-ext-install pdo pdo_mysql
@@ -20,4 +26,5 @@ RUN echo "log_errors = On" >> /usr/local/etc/php/conf.d/error-logging.ini \
 RUN mkdir -p /var/log/apache2 && chmod -R 777 /var/log/apache2
 
 # # Restart Apache
+
 CMD ["apache2-foreground"]

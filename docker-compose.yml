@@ -1,3 +1,4 @@
+
 services:
   app:
     build: 
@@ -10,6 +11,11 @@ services:
       - ./php.ini:/usr/local/etc/php/php.ini
     ports:
       - "80:80"
+      - .logs:/var/log/apache2  # Mount logs
+      - ./:/var/www/html  # Set public as document root
+      - ./php.ini:/usr/local/etc/php/php.ini
+    ports:
+      - "8080:80"
     depends_on:
       - db
       - mailhog
@@ -26,6 +32,7 @@ services:
     volumes:
       - db_data:/var/lib/mysql
       - ./logs/mysql:/var/log/mysql  # Mount logs
+
     ports:
       - "3306:3306"
 
@@ -37,8 +44,6 @@ services:
     environment:
       PMA_HOST: db
       MYSQL_ROOT_PASSWORD: root
-    volumes:
-      - ./logs/phpmyadmin:/var/log/phpmyadmin  # Mount logs
     ports:
       - "8081:80"
     depends_on:
