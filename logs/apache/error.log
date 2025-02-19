@@ -1,0 +1,625 @@
+[Sat Feb 15 22:10:58.975409 2025] [mpm_prefork:notice] [pid 1:tid 1] AH00163: Apache/2.4.62 (Debian) PHP/8.2.27 configured -- resuming normal operations
+[Sat Feb 15 22:10:58.975716 2025] [core:notice] [pid 1:tid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Sat Feb 15 22:13:33.874726 2025] [mpm_prefork:notice] [pid 1:tid 1] AH00170: caught SIGWINCH, shutting down gracefully
+[Sat Feb 15 22:13:48.877092 2025] [mpm_prefork:notice] [pid 1:tid 1] AH00163: Apache/2.4.62 (Debian) PHP/8.2.27 configured -- resuming normal operations
+[Sat Feb 15 22:13:48.877423 2025] [core:notice] [pid 1:tid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Sat Feb 15 23:14:27.237075 2025] [mpm_prefork:notice] [pid 1:tid 1] AH00170: caught SIGWINCH, shutting down gracefully
+[Sun Feb 16 12:08:29.441581 2025] [mpm_prefork:notice] [pid 1:tid 1] AH00163: Apache/2.4.62 (Debian) PHP/8.2.27 configured -- resuming normal operations
+[Sun Feb 16 12:08:29.441976 2025] [core:notice] [pid 1:tid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Sun Feb 16 14:29:25.061584 2025] [mpm_prefork:notice] [pid 1:tid 1] AH00170: caught SIGWINCH, shutting down gracefully
+[Sun Feb 16 14:29:39.170930 2025] [mpm_prefork:notice] [pid 1:tid 1] AH00163: Apache/2.4.62 (Debian) PHP/8.2.27 configured -- resuming normal operations
+[Sun Feb 16 14:29:39.171431 2025] [core:notice] [pid 1:tid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Sun Feb 16 18:16:02.074112 2025] [mpm_prefork:notice] [pid 1:tid 1] AH00170: caught SIGWINCH, shutting down gracefully
+[Sun Feb 16 18:27:50.299724 2025] [mpm_prefork:notice] [pid 1:tid 1] AH00163: Apache/2.4.62 (Debian) PHP/8.2.27 configured -- resuming normal operations
+[Sun Feb 16 18:27:50.300095 2025] [core:notice] [pid 1:tid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Sun Feb 16 20:21:27.368445 2025] [mpm_prefork:notice] [pid 1:tid 1] AH00170: caught SIGWINCH, shutting down gracefully
+[Sun Feb 16 20:21:37.109863 2025] [mpm_prefork:notice] [pid 1:tid 1] AH00163: Apache/2.4.62 (Debian) PHP/8.2.27 configured -- resuming normal operations
+[Sun Feb 16 20:21:37.110219 2025] [core:notice] [pid 1:tid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+sh: 1: cannot open div: No such file
+sh: 2: Syntax error: redirection unexpected
+sh: 1: cannot open div: No such file
+sh: 2: Syntax error: redirection unexpected
+sh: 1: cannot open div: No such file
+sh: 2: Syntax error: redirection unexpected
+sh: 1: cannot open div: No such file
+sh: 2: Syntax error: redirection unexpected
+sh: 1: cannot open div: No such file
+sh: 2: Syntax error: redirection unexpected
+sh: 1: cannot open div: No such file
+sh: 2: Syntax error: redirection unexpected
+sh: 1: cannot open div: No such file
+sh: 2: Syntax error: redirection unexpected
+sh: 1: cannot open div: No such file
+sh: 3: cannot open div: No such file
+sh: 4: Syntax error: redirection unexpected
+sh: 1: cannot open div: No such file
+sh: 3: cannot open div: No such file
+sh: 4: Syntax error: redirection unexpected
+sh: 1: cannot open div: No such file
+sh: 2: Syntax error: redirection unexpected
+sh: 1: cannot open div: No such file
+sh: 3: cannot open div: No such file
+sh: 4: Syntax error: redirection unexpected
+sh: 1: cannot open div: No such file
+sh: 2: Syntax error: redirection unexpected
+sh: 1: cannot open div: No such file
+sh: 3: cannot open div: No such file
+sh: 4: Syntax error: redirection unexpected
+sh: 1: cannot open div: No such file
+sh: 2: Syntax error: redirection unexpected
+sh: 1: cannot open div: No such file
+sh: 3: cannot open div: No such file
+sh: 4: Syntax error: redirection unexpected
+sh: 1: cannot open div: No such file
+sh: 3: cannot open div: No such file
+sh: 4: Syntax error: redirection unexpected
+sh: 1: cannot open div: No such file
+sh: 2: Syntax error: redirection unexpected
+sh: 1: cannot open div: No such file
+sh: 3: cannot open div: No such file
+sh: 4: Syntax error: redirection unexpected
+sh: 1: cannot open div: No such file
+sh: 2: Syntax error: redirection unexpected
+sh: 1: cannot open div: No such file
+sh: 3: cannot open div: No such file
+sh: 4: Syntax error: redirection unexpected
+sh: 1: cannot open div: No such file
+sh: 2: Syntax error: redirection unexpected
+sh: 1: cannot open div: No such file
+sh: 3: cannot open div: No such file
+sh: 4: Syntax error: redirection unexpected
+sh: 1: cannot open div: No such file
+sh: 3: cannot open div: No such file
+sh: 4: Syntax error: redirection unexpected
+sh: 1: cannot open div: No such file
+sh: 2: Syntax error: redirection unexpected
+sh: 1: cannot open div: No such file
+sh: 3: cannot open div: No such file
+sh: 4: Syntax error: redirection unexpected
+sh: 1: cannot open div: No such file
+sh: 2: Syntax error: redirection unexpected
+sh: 1: cannot open div: No such file
+sh: 3: cannot open div: No such file
+sh: 4: Syntax error: redirection unexpected
+sh: 1: cannot open div: No such file
+sh: 2: Syntax error: redirection unexpected
+sh: 1: cannot open div: No such file
+sh: 3: cannot open div: No such file
+sh: 4: Syntax error: redirection unexpected
+sh: 1: cannot open div: No such file
+sh: 3: cannot open div: No such file
+sh: 4: Syntax error: redirection unexpected
+sh: 1: cannot open div: No such file
+sh: 2: Syntax error: redirection unexpected
+sh: 1: cannot open div: No such file
+sh: 3: cannot open div: No such file
+sh: 4: Syntax error: redirection unexpected
+sh: 1: cannot open div: No such file
+sh: 2: Syntax error: redirection unexpected
+sh: 1: cannot open div: No such file
+sh: 3: cannot open div: No such file
+sh: 4: Syntax error: redirection unexpected
+sh: 1: cannot open div: No such file
+sh: 2: Syntax error: redirection unexpected
+sh: 1: cannot open div: No such file
+sh: 3: cannot open div: No such file
+sh: 4: Syntax error: redirection unexpected
+sh: 1: cannot open div: No such file
+sh: 3: cannot open div: No such file
+sh: 4: Syntax error: redirection unexpected
+sh: 1: cannot open div: No such file
+sh: 2: cannot open h2: No such file
+sh: 3: cannot open div: No such file
+sh: 4: cannot open !--: No such file
+sh: 5: : not found
+sh: 6: cannot open /div: No such file
+sh: 7: Syntax error: end of file unexpected
+sh: 1: cannot open div: No such file
+sh: 3: cannot open div: No such file
+sh: 4: Syntax error: redirection unexpected
+sh: 1: cannot open div: No such file
+sh: 2: cannot open h2: No such file
+sh: 3: cannot open div: No such file
+sh: 4: cannot open !--: No such file
+sh: 5: : not found
+sh: 6: cannot open /div: No such file
+sh: 7: Syntax error: end of file unexpected
+sh: 1: cannot open div: No such file
+sh: 3: cannot open div: No such file
+sh: 4: Syntax error: redirection unexpected
+sh: 1: cannot open div: No such file
+sh: 2: cannot open h2: No such file
+sh: 3: cannot open div: No such file
+sh: 4: cannot open !--: No such file
+sh: 5: : not found
+sh: 6: cannot open /div: No such file
+sh: 7: Syntax error: end of file unexpected
+sh: 1: cannot open div: No such file
+sh: 3: cannot open div: No such file
+sh: 4: Syntax error: redirection unexpected
+sh: 1: cannot open div: No such file
+sh: 3: cannot open div: No such file
+sh: 4: Syntax error: redirection unexpected
+sh: 1: cannot open div: No such file
+sh: 2: cannot open h2: No such file
+sh: 3: cannot open div: No such file
+sh: 4: cannot open !--: No such file
+sh: 5: : not found
+sh: 6: cannot open /div: No such file
+sh: 7: Syntax error: end of file unexpected
+sh: 1: cannot open div: No such file
+sh: 3: cannot open div: No such file
+sh: 4: Syntax error: redirection unexpected
+sh: 1: cannot open div: No such file
+sh: 2: cannot open h2: No such file
+sh: 3: cannot open div: No such file
+sh: 4: cannot open !--: No such file
+sh: 5: : not found
+sh: 6: cannot open /div: No such file
+sh: 7: Syntax error: end of file unexpected
+sh: 1: cannot open div: No such file
+sh: 3: cannot open div: No such file
+sh: 4: Syntax error: redirection unexpected
+sh: 1: cannot open div: No such file
+sh: 2: cannot open h2: No such file
+sh: 3: cannot open div: No such file
+sh: 4: cannot open !--: No such file
+sh: 5: : not found
+sh: 6: cannot open /div: No such file
+sh: 7: Syntax error: end of file unexpected
+sh: 1: cannot open div: No such file
+sh: 3: cannot open div: No such file
+sh: 4: Syntax error: redirection unexpected
+sh: 1: cannot open div: No such file
+sh: 3: cannot open div: No such file
+sh: 4: Syntax error: redirection unexpected
+sh: 1: cannot open div: No such file
+sh: 2: cannot open h2: No such file
+sh: 3: cannot open div: No such file
+sh: 4: cannot open !--: No such file
+sh: 5: : not found
+sh: 6: cannot open /div: No such file
+sh: 7: Syntax error: end of file unexpected
+sh: 1: cannot open div: No such file
+sh: 3: cannot open div: No such file
+sh: 4: Syntax error: redirection unexpected
+sh: 1: cannot open div: No such file
+sh: 2: cannot open h2: No such file
+sh: 3: cannot open div: No such file
+sh: 4: cannot open !--: No such file
+sh: 5: : not found
+sh: 6: cannot open /div: No such file
+sh: 7: Syntax error: end of file unexpected
+sh: 1: cannot open div: No such file
+sh: 3: cannot open div: No such file
+sh: 4: Syntax error: redirection unexpected
+sh: 1: cannot open div: No such file
+sh: 2: cannot open h2: No such file
+sh: 3: cannot open div: No such file
+sh: 4: cannot open !--: No such file
+sh: 5: : not found
+sh: 6: cannot open /div: No such file
+sh: 7: Syntax error: end of file unexpected
+sh: 1: cannot open div: No such file
+sh: 3: cannot open div: No such file
+sh: 4: Syntax error: redirection unexpected
+sh: 1: cannot open div: No such file
+sh: 3: cannot open div: No such file
+sh: 4: Syntax error: redirection unexpected
+sh: 1: cannot open div: No such file
+sh: 2: cannot open h2: No such file
+sh: 3: cannot open div: No such file
+sh: 4: cannot open !--: No such file
+sh: 5: : not found
+sh: 6: cannot open /div: No such file
+sh: 7: Syntax error: end of file unexpected
+sh: 1: cannot open div: No such file
+sh: 3: cannot open div: No such file
+sh: 4: Syntax error: redirection unexpected
+sh: 1: cannot open div: No such file
+sh: 2: cannot open h2: No such file
+sh: 3: cannot open div: No such file
+sh: 4: cannot open !--: No such file
+sh: 5: : not found
+sh: 6: cannot open /div: No such file
+sh: 7: Syntax error: end of file unexpected
+sh: 1: cannot open div: No such file
+sh: 3: cannot open div: No such file
+sh: 4: Syntax error: redirection unexpected
+sh: 1: cannot open div: No such file
+sh: 2: cannot open h2: No such file
+sh: 3: cannot open div: No such file
+sh: 4: cannot open !--: No such file
+sh: 5: : not found
+sh: 6: cannot open /div: No such file
+sh: 7: Syntax error: end of file unexpected
+sh: 1: cannot open div: No such file
+sh: 3: cannot open div: No such file
+sh: 4: Syntax error: redirection unexpected
+sh: 1: cannot open div: No such file
+sh: 3: cannot open div: No such file
+sh: 4: Syntax error: redirection unexpected
+sh: 1: cannot open div: No such file
+sh: 2: cannot open h2: No such file
+sh: 3: cannot open div: No such file
+sh: 4: cannot open !--: No such file
+sh: 5: : not found
+sh: 6: cannot open /div: No such file
+sh: 7: Syntax error: end of file unexpected
+sh: 1: cannot open div: No such file
+sh: 3: cannot open div: No such file
+sh: 4: Syntax error: redirection unexpected
+sh: 1: cannot open div: No such file
+sh: 2: cannot open h2: No such file
+sh: 3: cannot open div: No such file
+sh: 4: cannot open !--: No such file
+sh: 5: : not found
+sh: 6: cannot open /div: No such file
+sh: 7: Syntax error: end of file unexpected
+sh: 1: cannot open div: No such file
+sh: 3: cannot open div: No such file
+sh: 4: Syntax error: redirection unexpected
+sh: 1: cannot open div: No such file
+sh: 2: cannot open h2: No such file
+sh: 3: cannot open div: No such file
+sh: 4: cannot open !--: No such file
+sh: 5: : not found
+sh: 6: cannot open /div: No such file
+sh: 7: Syntax error: end of file unexpected
+sh: 1: cannot open div: No such file
+sh: 3: cannot open div: No such file
+sh: 4: Syntax error: redirection unexpected
+sh: 1: cannot open div: No such file
+sh: 3: cannot open div: No such file
+sh: 4: Syntax error: redirection unexpected
+sh: 1: cannot open div: No such file
+sh: 2: cannot open h2: No such file
+sh: 3: cannot open div: No such file
+sh: 4: cannot open !--: No such file
+sh: 5: : not found
+sh: 6: cannot open /div: No such file
+sh: 7: Syntax error: end of file unexpected
+sh: 1: cannot open div: No such file
+sh: 3: cannot open div: No such file
+sh: 4: Syntax error: redirection unexpected
+sh: 1: cannot open div: No such file
+sh: 2: cannot open h2: No such file
+sh: 3: cannot open div: No such file
+sh: 4: cannot open !--: No such file
+sh: 5: : not found
+sh: 6: cannot open /div: No such file
+sh: 7: Syntax error: end of file unexpected
+sh: 1: cannot open div: No such file
+sh: 3: cannot open div: No such file
+sh: 4: Syntax error: redirection unexpected
+sh: 1: cannot open div: No such file
+sh: 2: cannot open h2: No such file
+sh: 3: cannot open div: No such file
+sh: 4: cannot open !--: No such file
+sh: 5: : not found
+sh: 6: cannot open /div: No such file
+sh: 7: Syntax error: end of file unexpected
+sh: 1: cannot open div: No such file
+sh: 3: cannot open div: No such file
+sh: 4: Syntax error: redirection unexpected
+sh: 1: cannot open div: No such file
+sh: 3: cannot open div: No such file
+sh: 4: Syntax error: redirection unexpected
+sh: 1: cannot open div: No such file
+sh: 2: cannot open h2: No such file
+sh: 3: cannot open div: No such file
+sh: 4: cannot open !--: No such file
+sh: 5: : not found
+sh: 6: cannot open /div: No such file
+sh: 7: Syntax error: end of file unexpected
+sh: 1: cannot open div: No such file
+sh: 3: cannot open div: No such file
+sh: 4: Syntax error: redirection unexpected
+sh: 1: cannot open div: No such file
+sh: 2: cannot open h2: No such file
+sh: 3: cannot open div: No such file
+sh: 4: cannot open !--: No such file
+sh: 5: : not found
+sh: 6: cannot open /div: No such file
+sh: 7: Syntax error: end of file unexpected
+sh: 1: cannot open div: No such file
+sh: 3: cannot open div: No such file
+sh: 4: Syntax error: redirection unexpected
+sh: 1: cannot open div: No such file
+sh: 2: cannot open h2: No such file
+sh: 3: cannot open div: No such file
+sh: 4: cannot open !--: No such file
+sh: 5: : not found
+sh: 6: cannot open /div: No such file
+sh: 7: Syntax error: end of file unexpected
+sh: 1: cannot open div: No such file
+sh: 3: cannot open div: No such file
+sh: 4: Syntax error: redirection unexpected
+sh: 1: cannot open div: No such file
+sh: 3: cannot open div: No such file
+sh: 4: Syntax error: redirection unexpected
+sh: 1: cannot open div: No such file
+sh: 2: cannot open h2: No such file
+sh: 3: cannot open div: No such file
+sh: 4: cannot open !--: No such file
+sh: 5: : not found
+sh: 6: cannot open /div: No such file
+sh: 7: Syntax error: end of file unexpected
+sh: 1: cannot open div: No such file
+sh: 3: cannot open div: No such file
+sh: 4: Syntax error: redirection unexpected
+sh: 1: cannot open div: No such file
+sh: 2: cannot open h2: No such file
+sh: 3: cannot open div: No such file
+sh: 4: cannot open !--: No such file
+sh: 5: : not found
+sh: 6: cannot open /div: No such file
+sh: 7: Syntax error: end of file unexpected
+sh: 1: cannot open div: No such file
+sh: 3: cannot open div: No such file
+sh: 4: Syntax error: redirection unexpected
+sh: 1: cannot open div: No such file
+sh: 2: cannot open h2: No such file
+sh: 3: cannot open div: No such file
+sh: 4: cannot open !--: No such file
+sh: 5: : not found
+sh: 6: cannot open /div: No such file
+sh: 7: Syntax error: end of file unexpected
+sh: 1: cannot open div: No such file
+sh: 3: cannot open div: No such file
+sh: 4: Syntax error: redirection unexpected
+sh: 1: cannot open div: No such file
+sh: 3: cannot open div: No such file
+sh: 4: Syntax error: redirection unexpected
+sh: 1: cannot open div: No such file
+sh: 2: cannot open h2: No such file
+sh: 3: cannot open div: No such file
+sh: 4: cannot open !--: No such file
+sh: 5: : not found
+sh: 6: cannot open /div: No such file
+sh: 7: Syntax error: end of file unexpected
+sh: 1: cannot open div: No such file
+sh: 3: cannot open div: No such file
+sh: 4: Syntax error: redirection unexpected
+sh: 1: cannot open div: No such file
+sh: 2: cannot open h2: No such file
+sh: 3: cannot open div: No such file
+sh: 4: cannot open !--: No such file
+sh: 5: : not found
+sh: 6: cannot open /div: No such file
+sh: 7: Syntax error: end of file unexpected
+sh: 1: cannot open div: No such file
+sh: 3: cannot open div: No such file
+sh: 4: Syntax error: redirection unexpected
+sh: 1: cannot open div: No such file
+sh: 2: cannot open h2: No such file
+sh: 3: cannot open div: No such file
+sh: 4: cannot open !--: No such file
+sh: 5: : not found
+sh: 6: cannot open /div: No such file
+sh: 7: Syntax error: end of file unexpected
+sh: 1: cannot open div: No such file
+sh: 3: cannot open div: No such file
+sh: 4: Syntax error: redirection unexpected
+sh: 1: cannot open div: No such file
+sh: 3: cannot open div: No such file
+sh: 4: Syntax error: redirection unexpected
+sh: 1: cannot open div: No such file
+sh: 2: cannot open h2: No such file
+sh: 3: cannot open div: No such file
+sh: 4: cannot open !--: No such file
+sh: 5: : not found
+sh: 6: cannot open /div: No such file
+sh: 7: Syntax error: end of file unexpected
+sh: 1: cannot open div: No such file
+sh: 3: cannot open div: No such file
+sh: 4: Syntax error: redirection unexpected
+sh: 1: cannot open div: No such file
+sh: 2: cannot open h2: No such file
+sh: 3: cannot open div: No such file
+sh: 4: cannot open !--: No such file
+sh: 5: : not found
+sh: 6: cannot open /div: No such file
+sh: 7: Syntax error: end of file unexpected
+sh: 1: cannot open div: No such file
+sh: 3: cannot open div: No such file
+sh: 4: Syntax error: redirection unexpected
+sh: 1: cannot open div: No such file
+sh: 2: cannot open h2: No such file
+sh: 3: cannot open div: No such file
+sh: 4: cannot open !--: No such file
+sh: 5: : not found
+sh: 6: cannot open /div: No such file
+sh: 7: Syntax error: end of file unexpected
+sh: 1: cannot open div: No such file
+sh: 3: cannot open div: No such file
+sh: 4: Syntax error: redirection unexpected
+sh: 1: cannot open div: No such file
+sh: 3: cannot open div: No such file
+sh: 4: Syntax error: redirection unexpected
+sh: 1: cannot open div: No such file
+sh: 3: cannot open div: No such file
+sh: 4: Syntax error: redirection unexpected
+sh: 1: cannot open div: No such file
+sh: 3: cannot open div: No such file
+sh: 4: Syntax error: redirection unexpected
+sh: 1: cannot open div: No such file
+sh: 3: cannot open div: No such file
+sh: 4: Syntax error: redirection unexpected
+sh: 1: cannot open div: No such file
+sh: 3: cannot open div: No such file
+sh: 4: Syntax error: redirection unexpected
+sh: 1: cannot open div: No such file
+sh: 3: cannot open div: No such file
+sh: 4: Syntax error: redirection unexpected
+sh: 1: cannot open div: No such file
+sh: 2: cannot open h2: No such file
+sh: 3: cannot open div: No such file
+sh: 4: cannot open !--: No such file
+sh: 5: : not found
+sh: 6: cannot open /div: No such file
+sh: 7: Syntax error: end of file unexpected
+sh: 1: cannot open div: No such file
+sh: 3: cannot open div: No such file
+sh: 4: Syntax error: redirection unexpected
+sh: 1: cannot open div: No such file
+sh: 3: cannot open div: No such file
+sh: 4: Syntax error: redirection unexpected
+sh: 1: cannot open div: No such file
+sh: 3: cannot open div: No such file
+sh: 4: Syntax error: redirection unexpected
+sh: 1: cannot open div: No such file
+sh: 3: cannot open div: No such file
+sh: 4: Syntax error: redirection unexpected
+sh: 1: cannot open div: No such file
+sh: 3: cannot open div: No such file
+sh: 4: Syntax error: redirection unexpected
+sh: 1: cannot open div: No such file
+sh: 3: cannot open div: No such file
+sh: 4: Syntax error: redirection unexpected
+sh: 1: cannot open div: No such file
+sh: 3: cannot open div: No such file
+sh: 4: Syntax error: redirection unexpected
+sh: 1: cannot open div: No such file
+sh: 2: cannot open h2: No such file
+sh: 3: cannot open div: No such file
+sh: 4: cannot open !--: No such file
+sh: 5: : not found
+sh: 6: cannot open /div: No such file
+sh: 7: Syntax error: end of file unexpected
+sh: 1: cannot open div: No such file
+sh: 3: cannot open div: No such file
+sh: 4: Syntax error: redirection unexpected
+sh: 1: cannot open div: No such file
+sh: 3: cannot open div: No such file
+sh: 4: Syntax error: redirection unexpected
+sh: 1: cannot open div: No such file
+sh: 3: cannot open div: No such file
+sh: 4: Syntax error: redirection unexpected
+sh: 1: cannot open div: No such file
+sh: 3: cannot open div: No such file
+sh: 4: Syntax error: redirection unexpected
+sh: 1: cannot open div: No such file
+sh: 3: cannot open div: No such file
+sh: 4: Syntax error: redirection unexpected
+sh: 1: cannot open div: No such file
+sh: 3: cannot open div: No such file
+sh: 4: Syntax error: redirection unexpected
+sh: 1: cannot open div: No such file
+sh: 3: cannot open div: No such file
+sh: 4: Syntax error: redirection unexpected
+sh: 1: cannot open div: No such file
+sh: 2: cannot open h2: No such file
+sh: 3: cannot open div: No such file
+sh: 4: cannot open !--: No such file
+sh: 5: : not found
+sh: 6: cannot open /div: No such file
+sh: 7: Syntax error: end of file unexpected
+sh: 1: cannot open div: No such file
+sh: 3: cannot open div: No such file
+sh: 4: Syntax error: redirection unexpected
+sh: 1: cannot open div: No such file
+sh: 3: cannot open div: No such file
+sh: 4: Syntax error: redirection unexpected
+sh: 1: cannot open div: No such file
+sh: 2: cannot open h2: No such file
+sh: 3: cannot open div: No such file
+sh: 4: cannot open !--: No such file
+sh: 5: : not found
+sh: 6: cannot open /div: No such file
+sh: 7: Syntax error: end of file unexpected
+sh: 1: cannot open div: No such file
+sh: 3: cannot open div: No such file
+sh: 4: Syntax error: redirection unexpected
+sh: 1: cannot open div: No such file
+sh: 2: cannot open h2: No such file
+sh: 3: cannot open div: No such file
+sh: 4: cannot open !--: No such file
+sh: 5: : not found
+sh: 6: cannot open /div: No such file
+sh: 7: Syntax error: end of file unexpected
+sh: 1: cannot open div: No such file
+sh: 3: cannot open div: No such file
+sh: 4: Syntax error: redirection unexpected
+sh: 1: cannot open div: No such file
+sh: 2: cannot open h2: No such file
+sh: 3: cannot open div: No such file
+sh: 4: cannot open !--: No such file
+sh: 5: : not found
+sh: 6: cannot open /div: No such file
+sh: 7: Syntax error: end of file unexpected
+sh: 1: cannot open div: No such file
+sh: 3: cannot open div: No such file
+sh: 4: Syntax error: redirection unexpected
+sh: 1: cannot open div: No such file
+sh: 3: cannot open div: No such file
+sh: 4: Syntax error: redirection unexpected
+sh: 1: cannot open div: No such file
+sh: 3: cannot open div: No such file
+sh: 4: Syntax error: redirection unexpected
+sh: 1: cannot open div: No such file
+sh: 3: cannot open div: No such file
+sh: 4: Syntax error: redirection unexpected
+sh: 1: cannot open div: No such file
+sh: 3: cannot open div: No such file
+sh: 4: Syntax error: redirection unexpected
+sh: 1: cannot open div: No such file
+sh: 3: cannot open div: No such file
+sh: 4: Syntax error: redirection unexpected
+sh: 1: cannot open div: No such file
+sh: 3: cannot open div: No such file
+sh: 4: Syntax error: redirection unexpected
+sh: 1: cannot open div: No such file
+sh: 3: cannot open div: No such file
+sh: 4: Syntax error: redirection unexpected
+sh: 1: cannot open div: No such file
+sh: 3: cannot open div: No such file
+sh: 4: Syntax error: redirection unexpected
+sh: 1: cannot open div: No such file
+sh: 3: cannot open div: No such file
+sh: 4: Syntax error: redirection unexpected
+sh: 1: cannot open div: No such file
+sh: 3: cannot open div: No such file
+sh: 4: Syntax error: redirection unexpected
+sh: 1: cannot open div: No such file
+sh: 3: cannot open div: No such file
+sh: 4: Syntax error: redirection unexpected
+sh: 1: cannot open div: No such file
+sh: 3: cannot open div: No such file
+sh: 4: Syntax error: redirection unexpected
+sh: 1: cannot open div: No such file
+sh: 3: cannot open div: No such file
+sh: 4: Syntax error: redirection unexpected
+sh: 1: cannot open div: No such file
+sh: 3: cannot open div: No such file
+sh: 4: Syntax error: redirection unexpected
+sh: 1: cannot open div: No such file
+sh: 3: cannot open div: No such file
+sh: 4: Syntax error: redirection unexpected
+[Sun Feb 16 22:48:54.666371 2025] [mpm_prefork:notice] [pid 1:tid 1] AH00170: caught SIGWINCH, shutting down gracefully
+[Tue Feb 18 08:03:07.083558 2025] [mpm_prefork:notice] [pid 1:tid 1] AH00163: Apache/2.4.62 (Debian) PHP/8.2.27 configured -- resuming normal operations
+[Tue Feb 18 08:03:07.084103 2025] [core:notice] [pid 1:tid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Tue Feb 18 08:25:28.755863 2025] [mpm_prefork:notice] [pid 1:tid 1] AH00170: caught SIGWINCH, shutting down gracefully
+[Tue Feb 18 08:42:13.723976 2025] [mpm_prefork:notice] [pid 1:tid 1] AH00163: Apache/2.4.62 (Debian) PHP/8.2.27 configured -- resuming normal operations
+[Tue Feb 18 08:42:13.738751 2025] [core:notice] [pid 1:tid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Tue Feb 18 08:45:09.499901 2025] [mpm_prefork:notice] [pid 1:tid 1] AH00170: caught SIGWINCH, shutting down gracefully
+[Tue Feb 18 09:20:15.471108 2025] [mpm_prefork:notice] [pid 1:tid 1] AH00163: Apache/2.4.62 (Debian) PHP/8.2.27 configured -- resuming normal operations
+[Tue Feb 18 09:20:15.471697 2025] [core:notice] [pid 1:tid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Tue Feb 18 09:45:19.424239 2025] [mpm_prefork:notice] [pid 1:tid 1] AH00170: caught SIGWINCH, shutting down gracefully
+[Tue Feb 18 09:46:00.940375 2025] [mpm_prefork:notice] [pid 1:tid 1] AH00163: Apache/2.4.62 (Debian) PHP/8.2.27 configured -- resuming normal operations
+[Tue Feb 18 09:46:00.940899 2025] [core:notice] [pid 1:tid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Tue Feb 18 09:56:44.652356 2025] [mpm_prefork:notice] [pid 1:tid 1] AH00170: caught SIGWINCH, shutting down gracefully
+[Tue Feb 18 09:56:58.059639 2025] [mpm_prefork:notice] [pid 1:tid 1] AH00163: Apache/2.4.62 (Debian) PHP/8.2.27 configured -- resuming normal operations
+[Tue Feb 18 09:56:58.060067 2025] [core:notice] [pid 1:tid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Tue Feb 18 12:30:38.808488 2025] [mpm_prefork:notice] [pid 1:tid 1] AH00170: caught SIGWINCH, shutting down gracefully
+[Tue Feb 18 12:42:55.442796 2025] [mpm_prefork:notice] [pid 1:tid 1] AH00163: Apache/2.4.62 (Debian) PHP/8.2.27 configured -- resuming normal operations
+[Tue Feb 18 12:42:55.443384 2025] [core:notice] [pid 1:tid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Tue Feb 18 12:50:35.950975 2025] [mpm_prefork:notice] [pid 1:tid 1] AH00170: caught SIGWINCH, shutting down gracefully
+[Tue Feb 18 13:09:11.564651 2025] [mpm_prefork:notice] [pid 1:tid 1] AH00163: Apache/2.4.62 (Debian) PHP/8.2.27 configured -- resuming normal operations
+[Tue Feb 18 13:09:11.564957 2025] [core:notice] [pid 1:tid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Tue Feb 18 17:07:21.099855 2025] [mpm_prefork:notice] [pid 1:tid 1] AH00170: caught SIGWINCH, shutting down gracefully
+[Tue Feb 18 18:10:21.821376 2025] [mpm_prefork:notice] [pid 1:tid 1] AH00163: Apache/2.4.62 (Debian) PHP/8.2.27 configured -- resuming normal operations
+[Tue Feb 18 18:10:21.821783 2025] [core:notice] [pid 1:tid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Tue Feb 18 19:13:17.896157 2025] [mpm_prefork:notice] [pid 1:tid 1] AH00170: caught SIGWINCH, shutting down gracefully
+[Tue Feb 18 19:23:45.914112 2025] [mpm_prefork:notice] [pid 1:tid 1] AH00163: Apache/2.4.62 (Debian) PHP/8.2.27 configured -- resuming normal operations
+[Tue Feb 18 19:23:45.914441 2025] [core:notice] [pid 1:tid 1] AH00094: Command line: 'apache2 -D FOREGROUND'

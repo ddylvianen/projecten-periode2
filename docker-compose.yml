@@ -1,5 +1,4 @@
 
-
 services:
   app:
     build: 
@@ -7,6 +6,11 @@ services:
       dockerfile: Dockerfile
     container_name: php_app
     volumes:
+      - ./logs/apache:/var/log/apache2  # Mount logs
+      - ./php-side:/var/www/html  # Set public as document root
+      - ./php.ini:/usr/local/etc/php/php.ini
+    ports:
+      - "80:80"
       - .logs:/var/log/apache2  # Mount logs
       - ./:/var/www/html  # Set public as document root
       - ./php.ini:/usr/local/etc/php/php.ini
@@ -27,7 +31,8 @@ services:
       MYSQL_PASSWORD: password
     volumes:
       - db_data:/var/lib/mysql
-      - ./mysql_logs:/var/log/mysql  # Mount logs
+      - ./logs/mysql:/var/log/mysql  # Mount logs
+
     ports:
       - "3306:3306"
 
@@ -48,6 +53,8 @@ services:
     image: mailhog/mailhog
     container_name: mailhog
     restart: always
+    volumes:
+      - ./logs/mailhog:/var/log/mailhog  # Mount logs
     ports:
       - "1025:1025"
       - "8025:8025"
