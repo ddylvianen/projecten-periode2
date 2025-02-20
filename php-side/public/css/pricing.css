@@ -352,34 +352,10 @@
         box-shadow: none;
    }
 }
-/* body {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 100%;
-    background-color: #f0f4f7;
-    color: #717787;
+
+.empty-option{
+    visibility: hidden;
+
 }
-@media screen and (max-width: 960px) {
-    body {
-        font-size: 80%;
-   }
-}
-@media screen and (max-width: 776px) {
-    body {
-        font-size: 70%;
-   }
-}
-@media screen and (max-width: 496px) {
-    body {
-        font-size: 50%;
-   }
-}
-@media screen and (max-width: 320px) {
-    body {
-        font-size: 40%;
-   }
-}
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-} */
+
+

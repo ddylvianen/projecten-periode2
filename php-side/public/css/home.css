@@ -12,6 +12,17 @@ header{
     background-size: cover;
 }
 
+@media screen and (max-width: 850px){
+    header{
+        height: 400px;
+    }
+
+    section{
+        flex-direction: column;
+    }
+    
+}
+
 header div{
     background-color: var(--card-back);
     padding: 1em;
@@ -57,7 +68,7 @@ header div h1{
 }
 
 .sporten > .wraper > div{
-    background-color: var(--card-border);
+    background-color: var(--background-color);
     padding: 1em;
     border-radius: 10px;
     /* width: 30%; */
