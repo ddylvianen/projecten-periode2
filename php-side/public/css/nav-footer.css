@@ -1,37 +1,73 @@
 .logo{
     font-family: 'bangers', cursive;
-    font-size: 3.5rem;
+    font-size: 4rem;
     color: var(--accent-color);
 }
 
-nav{
+.nav a{
+    text-decoration: none;
+    color: var(--text-color);
+    font-family: 'inter', sans-serif;
+    font-size: 1.4rem;
+    text-align: end;
+}
+
+.nav{
     position: sticky;
     top: 0;
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     align-items: center;
-    padding: 0 1rem;
-    gap: 2rem;
+    padding: 0 1.5rem;
+    gap: 5rem;
     background-color: var(--background-color);
 }
 
-nav a{
-    text-decoration: none;
-    color: var(--text-color);
-    font-size: 1.5rem;
+#hamburger-menu{
+    display: none;
 }
 
-
-nav div{
-    font-family: 'inter', sans-serif;
+.nav-links-cont{
+    flex-grow: 1;
     display: flex;
-    align-items: center;
-    /* gap: .0rem; */
+    justify-content: space-between;
+
 }
 
-nav .nav-links a, nav .nav-account a{
-    padding: 5px  20px;
-    text-align: end;
+.nav-links{
+    display: flex;
+    gap: 2rem;
+}
+
+@media screen and (max-width: 768px){
+    .nav-links-cont{
+        display: none;
+    }
+
+    #hamburger-menu{
+        display: block;
+    }
+
+    .nav-links{
+        display: none;
+    }
+
+    .nav-mobile{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .hamburger-menu{
+        font-size: 2.5rem;
+        color: var(--text-color);
+        cursor: pointer;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
 }
 
 
@@ -48,4 +84,4 @@ footer{
 footer p{
     text-align: center;
     font-size: 1.5rem;
-}
+} 
