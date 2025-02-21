@@ -23,17 +23,3 @@
     </div>
   </div>
 </nav>
-
-<script>
-  const hamburgerMenu = document.getElementById('hamburger-menu');
-  const navLinksCont = document.querySelector('.nav-links-cont');
-  const navLinks = document.querySelectorAll('.nav-links');
-
-  console.log(navLinks);
-
-  hamburgerMenu.addEventListener('click', () => {
-    navLinksCont.classList.toggle('open');
-    navLinks.forEach(i=> {i.classList.toggle('open');});
-    // navLinks.classList.toggle('open');
-  });
-</script>

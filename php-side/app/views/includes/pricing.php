@@ -15,7 +15,7 @@
         <li class="empty-option"></li>
         <li class="empty-option"></li>
       </ul>
-      <button class="pricingTable-firstTable_table__getstart">Begin Nu</button>
+      <button class="pricingTable-firstTable_table__getstart btn">Begin Nu</button>
     </li>
     <li class="pricingTable-firstTable_table">
       <h1 class="pricingTable-firstTable_table__header">Goud Pakket</h1>
@@ -27,7 +27,7 @@
         <li>Gratis Squash en Tennis</li>
         <li>24/7 Klantenservice</li>
       </ul>
-      <button class="pricingTable-firstTable_table__getstart">Begin Nu</button>
+      <button class="pricingTable-firstTable_table__getstart btn">Begin Nu</button>
     </li>
     <li class="pricingTable-firstTable_table">
       <h1 class="pricingTable-firstTable_table__header">Platinum Pakket</h1>
@@ -39,7 +39,7 @@
         <li>Gratis Squash en Tennis</li>
         <li>Persoonlijke Trainer Sessies</li>
       </ul>
-      <button class="pricingTable-firstTable_table__getstart">Begin Nu</button>
+      <button class="pricingTable-firstTable_table__getstart btn">Begin Nu</button>
     </li>
   </ul>
 </div>

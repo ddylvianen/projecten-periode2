@@ -13,7 +13,7 @@
                 <div>
                     <h1>FitForFun</h1>
                     <p>Welkom bij FitForFun, de plek waar je jezelf kunt zijn en kunt werken aan je gezondheid.</p>
-                    <a href="#">Meld je aan</a>
+                    <button class="btn">Meld je nu aan!</button>
                 </div>
             </header>
             <section class="intro">
